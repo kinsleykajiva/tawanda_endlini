@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/agree" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+
+            <EditText
+                android:id="@+id/datet_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+
+
+                android:inputType="date"
+                android:paddingLeft="9dp"
+                android:paddingRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:text="Signature"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:paddingLeft="9dp"
+                android:paddingRight="10dp"
+                android:id="@+id/signature_pad"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:penColor="@android:color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:text="Endlini Signed"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+
+            <EditText
+                android:id="@+id/signed_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+
+
+                android:inputType="textPersonName"
+                android:paddingLeft="9dp"
+                android:paddingRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:text="Signature"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:paddingLeft="9dp"
+                android:paddingRight="10dp"
+                android:id="@+id/endlinisignature_pad"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:penColor="@android:color/black"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="black">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="deeper_grey">#757575</color>
+
+    <color name="black_alpha">#78212121</color>
+
+    <color name="red">#d50000</color>
+    <color name="red_deep">#f44336</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#81C784</color>
+    <color name="blue">#0D47A1</color>
+    <color name="blue_light">#64B5F6</color>
+    <color name="pink">#FF4081</color>
+
+    <color name="cop_back_ground">#213160</color>
+    <color name="cop_text">@color/white</color>
+    <color name="cop_green_light">#10CC9C</color>
+
+    <color name="darkgreen">#388E3C</color>
+    <color name="teal_900">#004D40</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_100">#B2DFDB</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">@color/darkgreen</color>
+    <color name="bg_screen2">@color/darkgreen</color>
+    <color name="bg_screen3">@color/darkgreen</color>
+</resources>
