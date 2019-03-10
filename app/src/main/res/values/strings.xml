@@ -5,4 +5,29 @@
          I hereby cerfy that all the informaon provided is correct and I authorise  Endlini to use the informaon contained herein to register my name under their scheme to the selected       town, including other facilies provided by Endlini.
 
     </string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_user_account">UserAccount</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="feedback_input">Feedback</string>
+    <string name="name_input">Name</string>
+    <string name="surname_input_hint">Enter your Surname</string>
+    <string name="surname_input">Surname</string>
+    <string name="password_input">Password</string>
+    <string name="email_input">Email</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="feedback_input_hint">Enter your feedback</string>
+    <string name="name_input_hint">Enter your name</string>
+    <string name="password_input_hint">Enter your password</string>
+    <string name="email_input_hint">Enter your email</string>
+    <string name="get_user_details_description">Please put all the required details below .</string>
+    <string name="dob">Date of Birth (DD-MM-YY)</string>
+    <string name="dob_hint">Enter Date of Birth.</string>
+    <string name="Save">Save</string>
+    <string name="save_details">Save Details</string>
+    <string name="phone_input">Phone Number.</string>
+    <string name="phone_input_hint">(263)700 00 00</string>
+    <string name="log_in">Log in</string>
 </resources>
