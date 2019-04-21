@@ -48,7 +48,7 @@ dependencies {
     implementation 'jp.wasabeef:recyclerview-animators:2.2.3'
     implementation 'com.github.bumptech.glide:glide:4.1.1'
     implementation 'com.github.sd6352051:NiftyDialogEffects:1.0.0'
-    implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'com.facebook.android:facebook-login:4.42.0'
     implementation 'com.google.android.gms:play-services-auth:16.0.1'
 
 }
