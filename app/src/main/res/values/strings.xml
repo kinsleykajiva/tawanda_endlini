@@ -36,6 +36,7 @@
     <string name="client_secrete">LtHqHOGBq6SJr_CaROi_N11C</string>
     <string name="fb_login_protocol_scheme">fb610291686041119</string>
     <string name="client_id">140161996658-4ve3fcdon895v6jn9kq910n4vuciesd5.apps.googleusercontent.com</string>
+    <string name="title_activity_sm_slogin">SmSLoginActivity</string>
 
 
 </resources>
