@@ -3,22 +3,18 @@ apply plugin: 'realm-android'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "zw.endlini"
-        minSdkVersion 17
+        applicationId "com.endliniapp.endlini"
+        minSdkVersion 18
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-    }
-    compileOptions {
-        sourceCompatibility = '1.8'
-        targetCompatibility = '1.8'
     }
 }
 repositories {
@@ -30,36 +26,38 @@ repositories {
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha05'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
     implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:support-core-utils:28.0.0'
     implementation 'com.android.support:support-core-ui:28.0.0'
-    implementation 'com.android.support:support-fragment:28.0.0'
     implementation 'com.android.support:animated-vector-drawable:28.0.0'
-    implementation 'com.android.support:cardview-v7:28.0.0'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.facebook.android:facebook-login:4.42.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:16.0.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.0'
+    implementation 'com.github.ceryle:RadioRealButton:v2.1.1'
+    implementation 'com.github.scottyab:showhidepasswordedittext:0.8'
+    implementation 'ru.egslava:MaskedEditText:1.0.5'
+    implementation 'com.github.arcadefire:nice-spinner:1.4'
     implementation 'com.guardanis:sigcap:1.0.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     implementation 'com.github.gcacace:signature-pad:1.2.1'
 
     implementation 'com.sdsmdg.tastytoast:tastytoast:0.1.1'
     implementation 'jp.wasabeef:recyclerview-animators:2.2.3'
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     implementation 'com.github.sd6352051:NiftyDialogEffects:1.0.0'
-    implementation 'com.facebook.android:facebook-login:4.42.0'
-    implementation 'com.google.android.gms:play-services-auth:16.0.1'
-
-    implementation 'com.github.ceryle:RadioRealButton:v2.1.1'
-    implementation 'com.github.scottyab:showhidepasswordedittext:0.8'
-    implementation 'ru.egslava:MaskedEditText:1.0.5'
-    implementation 'com.github.arcadefire:nice-spinner:1.4'
     implementation 'lib.kingja.switchbutton:switchbutton:1.1.8'
 
-    implementation 'com.google.android.gms:play-services-base:16.1.0'
-    implementation 'com.google.android.gms:play-services-identity:16.0.0'
-    implementation 'com.google.android.gms:play-services-auth:16.0.1'
-    implementation 'com.google.android.gms:play-services-auth-api-phone:16.0.0'
-
 }
+apply plugin: 'com.google.gms.google-services'
